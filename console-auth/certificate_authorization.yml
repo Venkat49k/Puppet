@@ -1,0 +1,5 @@
+---
+server1.abc.com:
+  role: read-write
+pe-internal-dashboard:
+  role: read-write

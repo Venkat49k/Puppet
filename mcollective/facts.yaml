@@ -1,0 +1,108 @@
+--- 
+  kernel: Linux
+  hostname: server1
+  domain: abc.com
+  fqdn: server1.abc.com
+  architecture: x86_64
+  augeasversion: "1.1.0"
+  blockdevice_sda_size: 42949672960
+  blockdevice_sda_vendor: "VMware,"
+  blockdevice_sda_model: "VMware Virtual S"
+  blockdevice_sr0_size: 1073741312
+  blockdevice_sr0_vendor: NECVMWar
+  blockdevice_sr0_model: "VMware IDE CDR10"
+  blockdevices: "sda,sr0"
+  macaddress: "00:0C:29:3C:2E:46"
+  osfamily: RedHat
+  operatingsystem: CentOS
+  lsbdistid: CentOS
+  facterversion: "1.7.5"
+  filesystems: "ext4,iso9660"
+  hardwareisa: x86_64
+  hardwaremodel: x86_64
+  id: root
+  interfaces: "eth1,lo"
+  ipaddress_eth1: "192.168.152.128"
+  macaddress_eth1: "00:0C:29:3C:2E:46"
+  netmask_eth1: "255.255.255.0"
+  mtu_eth1: "1500"
+  ipaddress_lo: "127.0.0.1"
+  netmask_lo: "255.0.0.0"
+  mtu_lo: "65536"
+  ipaddress: "192.168.152.128"
+  kernelmajversion: "2.6"
+  kernelrelease: "2.6.32-642.13.1.el6.x86_64"
+  kernelversion: "2.6.32"
+  lsbdistcodename: Final
+  lsbdistdescription: "CentOS release 6.8 (Final)"
+  lsbdistrelease: "6.8"
+  lsbmajdistrelease: "6"
+  lsbrelease: ":base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch"
+  boardmanufacturer: "Intel Corporation"
+  boardproductname: "440BX Desktop Reference Platform"
+  boardserialnumber: None
+  bios_vendor: "Phoenix Technologies LTD"
+  bios_version: "6.00"
+  bios_release_date: "05/20/2014"
+  manufacturer: "VMware, Inc."
+  productname: "VMware Virtual Platform"
+  serialnumber: "VMware-56 4d 01 df 8c 5b 7d 61-18 eb 1b c2 6c 3c 2e 46"
+  uuid: "564D01DF-8C5B-7D61-18EB-1BC26C3C2E46"
+  type: Other
+  memorysize: "3.73 GB"
+  memoryfree: "1.40 GB"
+  swapsize: "4.00 GB"
+  swapfree: "3.99 GB"
+  swapsize_mb: "4096.00"
+  swapfree_mb: "4084.76"
+  memorysize_mb: "3816.91"
+  memoryfree_mb: "1435.27"
+  memorytotal: "3.73 GB"
+  netmask: "255.255.255.0"
+  network_eth1: "192.168.152.0"
+  network_lo: "127.0.0.0"
+  operatingsystemmajrelease: "6"
+  operatingsystemrelease: "6.8"
+  path: "/usr/bin:/bin:/usr/sbin:/sbin"
+  physicalprocessorcount: 1
+  processor0: "Intel(R) Core(TM) i3-2100 CPU @ 3.10GHz"
+  processorcount: "1"
+  ps: "ps -ef"
+  puppetversion: "3.6.2 (Puppet Enterprise 3.3.2)"
+  rubysitedir: /opt/puppet/lib/ruby/site_ruby/1.9.1
+  rubyversion: "1.9.3"
+  selinux: "false"
+  sshdsakey: "AAAAB3NzaC1kc3MAAACBAO+vaFwL6QKamL6oCzRQi8Y9GrprFaEpoWph4wqdZt8NtWVPLPMTYinLDXoI95pSCNs7YWt1hinTw25zsXRq4a1Z0wuDnA8KGJDlvYqMHKP2Syhd/EdApoHEAjRkNzjOLYOAq5Vm4sqXgto0xohwXZ3bAHEXfCVfm9BnJShs21OrAAAAFQCI5rDXtkN7V2UhRqummdjTGYTsxwAAAIBZ8xypbS1gTHvxKZubZkMzQu/izlYWCo15eOLOdtxSA4xeOM9e6h+K0vBjKPyKBywRseSA9DUT40NsksFs/BtymHH6ZvcAFYAqTStMXsGWG1ODR3LjuUzQ+Vw9M/aqwO8vH2y5tLEv2OwS3xEFZRjzxMrEAQvhwAMi3o4tB5941AAAAIEA6etiJcRssqleurDHxv5SGA4j2zmIIrYsptH3hamsu87Le6y287xa0dZCGvVzJ4lbIqxJulaQK0wHGDS/bMcbxrY3SuIIwQ/qEdhozckkzkLQlSQO3/ewq+Xr5Q7W9HjeF+03w395JjT+zgI8zya5NUzvntob9IqewB67+MdwoRs="
+  sshfp_dsa: |-
+    SSHFP 2 1 baf735d78997151e7a66a65c1e25379e9244d90f
+    SSHFP 2 2 24d41b3c9be71662b654d12ba2ba9eb1fc12f4eee0a3b16e3c9d323f944b6fdf
+  sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEA10lfzqcIgVYnSC/+PfRGvKvY4r9TZwoUDHhGaVUkT3L1qZrapeoHKmUf1TWdNt3801Od/U+ucUQHBFQVv0EEarLXrxPxA3graoLERvM6VnNUXxIr9hTjTgUSpZienogFMVWwVPgjfX0MxyqPZxaVdQwhisn5c/J5972ZYZvFFo9r/VYlLR/fWq9BpZiyi/CPNI2tAFevJElRnEh52hiB/BXbFp60fPxrLyn/Lx+haO0ugDTsNZypDfWJdbs1FFwmlRdpZE94lScsQpWbYIdPha565FEeAR3oqKj2kuUP67uS3h73/tMgofPqc8qeYp0PrnV0CV3ocTKCnbCVXVLNRQ=="
+  sshfp_rsa: |-
+    SSHFP 1 1 8bbe873257e67008bc91537e4aab0df27fec14e4
+    SSHFP 1 2 7d71120955a565e761fcd8e202fea7dfebb3b5899755eace3db8fb6ed455f3e9
+  timezone: IST
+  uniqueid: "007f0100"
+  uptime: "5:34 hours"
+  uptime_days: 0
+  uptime_hours: 5
+  uptime_seconds: 20092
+  virtual: vmware
+  is_virtual: "true"
+  concat_basedir: /var/opt/lib/pe-puppet/concat
+  custom_auth_conf: "false"
+  ip6tables_version: "1.4.7"
+  iptables_version: "1.4.7"
+  last_run: "Wed Mar 01 13:00:04:173692266 IST 2017"
+  pe_build: "3.3.2"
+  pe_postgres_default_version: "8.4"
+  pe_puppetdb_server_status: configured
+  pe_version: "3.3.2"
+  is_pe: true
+  pe_major_version: "3"
+  pe_minor_version: "3"
+  pe_patch_version: "2"
+  platform_tag: el-6-x86_64
+  postgres_default_version: "8.4"
+  puppet_vardir: /var/opt/lib/pe-puppet
+  root_home: /root
+  staging_http_get: curl

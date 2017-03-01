@@ -1,0 +1,17 @@
+common: &common
+    database: console
+    username: console
+    password: 'Aj5jRNbiCjFjs6X1OHbByw'
+    host: server1.abc.com
+    port: 5432
+    adapter: postgresql
+
+development:
+    <<: *common
+
+production:
+    <<: *common
+
+test:
+    database: console_test
+    <<: *common
